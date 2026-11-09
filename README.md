@@ -3,7 +3,9 @@
 [Hoku](https://github.com/Philoni/hoku) is a menu bar app for Philips Hue on macOS 26 or later.
 
 ```bash
-brew install --cask philoni/hoku/hoku
+brew tap philoni/hoku
+brew trust philoni/hoku
+brew install --cask hoku
 ```
 
 Update with `brew upgrade --cask hoku`.
